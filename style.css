@@ -1,22 +1,78 @@
-body {
-
+body{
     background-color: #F3F5FC;
 }
 
-
-div {   
-
-    width: 40%;
-
-    border: 2px solid red
-
+#botones {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -200px;
     
 }
 
+button{
+    height: 50px;
+    width: 150px;
+    margin: 15px;
+    border-radius: 35px;
+    font-size: 20px;
+}
 
-input {
+#boton-copiar{
+    
+    position: absolute;
+    bottom: 40px;
+    display: none;
 
-    width: 80%;
-    height: 80px;
+}
+
+textarea {
+    display: block;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    resize: none;
+    font-size: 24px;
+}
+
+#area-escribir{
+    
+    width: 680px;
+    height: 944px;
+    border-radius: 36px;
+    border: 2px solid green;
+    margin-right: 20px;
+    
+
+
+}
+
+
+#area-encripta{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 944px;
+    border: 2px solid red;
+    width: 400px;
+    border-radius: 36px;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+
+}
+
+#general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 336px;
+    height: 304px;
+    position: absolute;
+    top: 283px;
+    left: 20px;
+
 
 }
