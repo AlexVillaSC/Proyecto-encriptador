@@ -33,6 +33,10 @@ textarea {
     margin: 0 auto;
     resize: none;
     font-size: 24px;
+    border: none;
+    outline: none;
+    background-color: #F3F5FC;
+    color: #0A3871;
 }
 
 #area-escribir{
@@ -40,7 +44,7 @@ textarea {
     width: 680px;
     height: 944px;
     border-radius: 36px;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     margin-right: 20px;
     
 
@@ -53,7 +57,7 @@ textarea {
     justify-content: center;
     position: relative;
     height: 944px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     width: 400px;
     border-radius: 36px;
     margin-left: 20px;
@@ -70,9 +74,19 @@ textarea {
 img{
     width: 336px;
     height: 304px;
+    
+}
+
+#contenedor-imagen{
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    top: 283px;
+    top:260px;
     left: 20px;
+}
 
-
+#mensaje-imagen{
+    color: #343A40;
+    font-size: 24px;
+    text-align: center;
 }
