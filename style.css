@@ -39,6 +39,10 @@ textarea {
     color: #0A3871;
 }
 
+textarea::placeholder{
+    color: #0A3871;
+}
+
 #area-escribir{
     
     width: 680px;
@@ -53,8 +57,7 @@ textarea {
 
 
 #area-encripta{
-    display: flex;
-    justify-content: center;
+    
     position: relative;
     height: 944px;
     /*border: 2px solid red;*/
@@ -89,4 +92,12 @@ img{
     color: #343A40;
     font-size: 24px;
     text-align: center;
+}
+
+#texto-encriptado{
+    font-size: 24px;
+    margin: 15px auto;
+    width: 370px;
+    overflow-wrap: break-word;
+    color: #495057;
 }
