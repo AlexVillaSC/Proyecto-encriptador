@@ -227,7 +227,7 @@ body{
     }
 
     #contenedor-imagen img {
-        display: none; /* Imagen oculta */
+        display: none; 
     }
 
     #mensaje-imagen {
@@ -238,7 +238,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100px; /* Ajusta la altura según sea necesario */
+        height: 100px;
     }
 
     #botones {
@@ -259,7 +259,7 @@ body{
     #boton-encriptar {
         background-color: #0A3871;
         color: #FFFFFF;
-        margin-bottom: 10px; /* Separar los botones */
+        margin-bottom: 10px;
     }
 
     #boton-desencriptar {

@@ -31,7 +31,7 @@ function encriptar() {
     texto_encriptado.innerHTML = valorIngresado.join('');
     entrada_texto.value = "";
 
-    verificarContenidoEncriptado(); // Verifica si debe mostrar u ocultar la imagen y el botón
+    verificarContenidoEncriptado(); 
 }
 
 function desencriptar() {
@@ -47,16 +47,16 @@ function desencriptar() {
     texto_encriptado.innerHTML = valorIngresado;
     entrada_texto.value = "";
 
-    verificarContenidoEncriptado(); // Verifica si debe mostrar u ocultar la imagen y el botón
+    verificarContenidoEncriptado(); 
 }
 
 function verificarContenidoEncriptado() {
     if (texto_encriptado.innerHTML.trim() === "") {
-        elemento_divarea.style.display = "flex"; // Muestra la imagen si no hay contenido
-        boton_copiar.style.display = "none"; // Oculta el botón si no hay contenido
+        elemento_divarea.style.display = "flex"; 
+        boton_copiar.style.display = "none"; 
     } else {
-        elemento_divarea.style.display = "none"; // Oculta la imagen si hay contenido
-        boton_copiar.style.display = "block"; // Muestra el botón si hay contenido
+        elemento_divarea.style.display = "none"; 
+        boton_copiar.style.display = "block"; 
     }
 }
 
@@ -66,5 +66,5 @@ function copiarTexto() {
 
 boton_copiar.addEventListener('click', copiarTexto);
 
-// Llama a la función para verificar el contenido al inicio
+
 verificarContenidoEncriptado();
